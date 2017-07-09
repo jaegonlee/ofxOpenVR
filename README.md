@@ -11,3 +11,4 @@ Implementation of Valve Software's [OpenVR](https://github.com/ValveSoftware/ope
 ## Notes
 Tested with the HTC Vive and the Oculus Rift (consumer version) on Windows 10.
 
+Tested with the HTC Vive on macOS 10.12.5
