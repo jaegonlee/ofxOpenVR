@@ -1189,7 +1189,7 @@ CGLRenderModel *ofxOpenVR::findOrLoadRenderModel(const char *pchRenderModelName)
 {
 	CGLRenderModel *pRenderModel = NULL;
 	for (std::vector< CGLRenderModel * >::iterator i = _vecRenderModels.begin(); i != _vecRenderModels.end(); i++) {
-		if (!stricmp((*i)->GetName().c_str(), pchRenderModelName)) {
+		if (!strcasecmp((*i)->GetName().c_str(), pchRenderModelName)) {
 			pRenderModel = *i;
 			break;
 		}
